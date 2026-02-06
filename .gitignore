@@ -1,0 +1,78 @@
+# Node & NPM
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+.npm
+.yarn
+
+# Angular
+/frontend/dist/
+/frontend/tmp/
+/frontend/.angular/
+/frontend/out-tsc/
+/frontend/bazel-out
+
+# IDEs and Editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+.DS_Store
+
+# Java & Maven
+/backend/target/
+/backend/.mvn/
+/backend/mvnw
+/backend/mvnw.cmd
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.ctxt
+.mtj.tmp/
+hs_err_pid*
+
+# Spring Boot
+/backend/logs/
+/backend/spring.log
+
+# Database
+*.db
+*.sqlite
+*.sql.backup
+
+# Docker
+*.env
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build artifacts
+*.orig
+
+# Credentials & Secrets
+**/application-local.properties
+**/application-prod.properties
+.env
+.env.local
+secrets.yml
+
+# Logs
+logs/
+*.log
+
+# Test coverage
+coverage/
+.nyc_output/

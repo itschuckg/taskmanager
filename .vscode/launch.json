@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Angular",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/frontend/node_modules/@angular/cli/bin/ng",
+            "args": ["serve", "--port", "4200"],
+            "cwd": "${workspaceFolder}/frontend",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Attach to Angular",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200",
+            "webRoot": "${workspaceFolder}/frontend/src"
+        }
+    ]
+}
