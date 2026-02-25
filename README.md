@@ -2,6 +2,19 @@
 
 A full-stack task management application built with Angular frontend, Spring Boot backend, and MariaDB database.
 
+## ⚡ AI-Assisted Build Context
+
+This project was built as a rapid experiment using **GitHub Copilot** as the primary coding assistant, with the end-to-end implementation completed in approximately **30 minutes**.
+
+Use this repository as a practical reference for:
+- Fast full-stack scaffolding with AI assistance
+- Keeping architecture boundaries clear under tight delivery time
+- Converting a prototype into a maintainable baseline
+
+Related docs:
+- [Architecture deep dive](ARCHITECTURE.md)
+- [Angular implementation guide](ANGULAR_GUIDE.md)
+
 ## Architecture
 
 - **Frontend**: Angular 17+ with TypeScript and Angular Material UI
